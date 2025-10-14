@@ -52,7 +52,7 @@ library(AER)
 Importation de la base sous R sous le nom base, sauvegarde sous base.rda
 
 ```{r}
-base <- read.xlsx("data/base.xlsx",
+base <- read.xlsx("data/french_departments_socioeconomic_data.xlsx",
                   startRow = 2,
                   colNames = TRUE,
                   rowNames = TRUE)
